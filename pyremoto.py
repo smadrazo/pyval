@@ -309,16 +309,17 @@ def main():
     # INICIALIZAR VARIABLES CON RUTAS
     
     app_carpeta = os.getcwd()
+    #app_carpeta = os.chdir('/Users/smadrazo/Documents/Development/Code/pyval-2')
     img_carpeta = app_carpeta + os.sep + "imagen" + os.sep
        
     # DECLARAR Y VERIFICAR ICONOS DE LA APLICACIÓN:
 
-    iconos = (img_carpeta + "pyremoto64x64.png",
-              img_carpeta + "conec16x16.png",
-              img_carpeta + "salir16x16.png",
-              img_carpeta + "star16x16.png",
-              img_carpeta + "conec32x32.png",
-              img_carpeta + "salir32x32.png")                  
+    iconos = (img_carpeta + "pyremoto64x64.gif",
+              img_carpeta + "conec16x16.gif",
+              img_carpeta + "salir16x16.gif",
+              img_carpeta + "star16x16.gif",
+              img_carpeta + "conec32x32.gif",
+              img_carpeta + "salir32x32.gif")                  
     error1 = f_verificar_iconos(iconos)
        
     if not error1:
