@@ -204,7 +204,7 @@ class PyRemoto():
         self.raiz.bind("<Control-c>", 
                        lambda event: self.f_conectar())
         self.raiz.bind("<Control-g>", 
-                       lambda event: self.f_guardar())
+                       lambda event: self.f_guardarconfig())
         self.raiz.bind("<Control-q>", 
                        lambda event: self.f_salir())
         self.raiz.bind("<Button-3>", 
