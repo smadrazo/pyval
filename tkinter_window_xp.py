@@ -14,7 +14,6 @@ root = Tk()
 # Window configuration (geometry,title,etc)
 root.title("App Title")
 root.geometry('300x200')
-root.
 
 # Frame widgets surround other widgets
 frame = Frame(root)
